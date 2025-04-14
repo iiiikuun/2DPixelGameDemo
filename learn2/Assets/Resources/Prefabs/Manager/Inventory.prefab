@@ -1,0 +1,559 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5785190922582188635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 632360901589502416}
+  - component: {fileID: 2613500502062001077}
+  m_Layer: 0
+  m_Name: Inventory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &632360901589502416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5785190922582188635}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -12.73945, y: 3.9245462, z: -10.529726}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2613500502062001077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5785190922582188635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f452b0bbf13a245bc2da7daac62c52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialGridSize: {x: 2, y: 7}
+  equipmentGridSize: {x: 8, y: 7}
+  equippedSlots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  wornEquipment:
+  - data: {fileID: 0}
+    ui_Equipment: {fileID: 0}
+    strength:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    agility:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    intelligence:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    vitality:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    damage:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    attackSpeed:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    magicPower:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    critChance:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    critPower:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    damageIncrease:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    armorPiercing:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    magicPiercing:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    maxHealth:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    armor:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    magicResistance:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    evasion:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    damageDecrease:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    resilience:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    maxMana:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    moveSpeed:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    allStats: []
+  - data: {fileID: 0}
+    ui_Equipment: {fileID: 0}
+    strength:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    agility:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    intelligence:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    vitality:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    damage:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    attackSpeed:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    magicPower:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    critChance:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    critPower:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    damageIncrease:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    armorPiercing:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    magicPiercing:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    maxHealth:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    armor:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    magicResistance:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    evasion:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    damageDecrease:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    resilience:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    maxMana:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    moveSpeed:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    allStats: []
+  - data: {fileID: 0}
+    ui_Equipment: {fileID: 0}
+    strength:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    agility:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    intelligence:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    vitality:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    damage:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    attackSpeed:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    magicPower:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    critChance:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    critPower:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    damageIncrease:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    armorPiercing:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    magicPiercing:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    maxHealth:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    armor:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    magicResistance:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    evasion:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    damageDecrease:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    resilience:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    maxMana:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    moveSpeed:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    allStats: []
+  - data: {fileID: 0}
+    ui_Equipment: {fileID: 0}
+    strength:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    agility:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    intelligence:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    vitality:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    damage:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    attackSpeed:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    magicPower:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    critChance:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    critPower:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    damageIncrease:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    armorPiercing:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    magicPiercing:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    maxHealth:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    armor:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    magicResistance:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    evasion:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    damageDecrease:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    resilience:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    maxMana:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    moveSpeed:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    allStats: []
+  - data: {fileID: 0}
+    ui_Equipment: {fileID: 0}
+    strength:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    agility:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    intelligence:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    vitality:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    damage:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    attackSpeed:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    magicPower:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    critChance:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    critPower:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    damageIncrease:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    armorPiercing:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    magicPiercing:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    maxHealth:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    armor:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    magicResistance:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    evasion:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    damageDecrease:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    resilience:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    maxMana:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    moveSpeed:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    allStats: []
+  - data: {fileID: 0}
+    ui_Equipment: {fileID: 0}
+    strength:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    agility:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    intelligence:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    vitality:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    damage:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    attackSpeed:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    magicPower:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    critChance:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    critPower:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    damageIncrease:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    armorPiercing:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    magicPiercing:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    maxHealth:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    armor:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    magicResistance:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    evasion:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    damageDecrease:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    resilience:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    maxMana:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    moveSpeed:
+      baseValue: 0
+      modifiers: 
+      statType: 0
+    allStats: []
+  UI_ItemSlotPrefab: {fileID: 4108880634186532908, guid: d1b2bc13cd230c144a5e549c00c14f59, type: 3}
+  UI_MaterialPrefab: {fileID: 5998683882230542595, guid: 0adf039563c9a2349a350ca63b3442d4, type: 3}
+  UI_EquipmentPrefab: {fileID: 6681183861501258666, guid: fa4ace151e8a9be4a9334e852aa7469a, type: 3}
+  materialSlotParent: {fileID: 0}
+  equipmentSlotParent: {fileID: 0}
