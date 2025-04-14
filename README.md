@@ -5,11 +5,11 @@
 ![村庄场景](ScreenShot/ScreenShot1.png)  
 
 *古堡场景*
-![古堡场景](ScreenShot/ScreenShot1.png)  
+![古堡场景](ScreenShot/ScreenShot2.png)  
 
 *物品管理和装备界面*
-![背包系统](ScreenShot/ScreenShot1.png)  
+![背包系统](ScreenShot/ScreenShot3.png)  
 
 *角色信息界面*
-![角色信息](ScreenShot/ScreenShot1.png)  
+![角色信息](ScreenShot/ScreenShot4.png)  
 
